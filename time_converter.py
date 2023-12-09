@@ -7,10 +7,10 @@ def twenty_four_hour(input_hour, input_minute, period):
     new_hour = str(input_hour)
     new_minute = str(input_minute)
     
-    if new_hour < 10:
+    if input_hour < 10:
         new_hour = "0" + new_hour
-    if new_minute < 10:
+    if input_minute < 10:
         new_minute = "0" + new_minute
     
-    # return input_hour
-print(twenty_four_hour(1, "pm"))
+    return new_hour + new_minute
+print(twenty_four_hour(1, 12, "am"))
