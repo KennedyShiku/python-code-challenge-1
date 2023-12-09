@@ -10,4 +10,4 @@ def two_positive_numbers(a,b,c):
     
     return positive_numbers == 2
 
-print(two_positive_numbers(1, 2, -3))
+print(two_positive_numbers(1, 2, -3))   
